@@ -41,6 +41,7 @@ int main(){
     int cutMax = 0;
 
     double *curveLength;
+    double *temp_lenght;
 
     printf("Opening the raw data file...\n");
     fp = fopen("hurst_050.txt","r");
