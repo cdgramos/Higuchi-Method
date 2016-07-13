@@ -8,23 +8,23 @@
 int main(){
     //we start counting values at 1 to avoid divisions by zero in the for loops
 
-	FILE *fp; // general purpose file pointer
+    FILE *fp; // general purpose file pointer
 
-	int N = 0; // number of data records
+    int N = 0; // number of data records
 
-	int i = 0; // general purpose
-	int j = 0; // general purpose
-	int h = 0; // general purpose
-	int k = 0; // general purpose
-	int acc = 0; // general purpose
-	int val = 0; // general purpose
+    int i = 0; // general purpose
+    int j = 0; // general purpose
+    int h = 0; // general purpose
+    int k = 0; // general purpose
+    int acc = 0; // general purpose
+    int val = 0; // general purpose
     double aux = 0.0; // general purpose
     double aux1 = 0.0; // general purpose
 
     int mlarge = 0;
 
-	double *x; // store input / raw data
-	double *sequence; // treated data
+    double *x; // store input / raw data
+    double *sequence; // treated data
 
     double logMin = 0.0; // logarithmic scale purpose
     double logMax = 0.0; // logarithmic scale purpose
