@@ -3,7 +3,7 @@
 #include <math.h>
 #include "auxiliar.h"
 
-#define minValues 16 //mininum records to compute Higuchi Fractal Dimension Algorithm ! Impirical Value
+#define minValues 16 //mininum records to compute Higuchi Fractal Dimension Algorithm ! Empirical Value
 
 int main(){
     //we start counting values at 1 to avoid divisions by zero in the for loops
